@@ -5,7 +5,7 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		
-		int zahl;
+		int zahl; // Initialisierung der Variable, in der die Collatzberechnung stattfindet
 		
 		
 		for(int i = 5; i <=100;i++){

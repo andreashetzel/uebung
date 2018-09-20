@@ -5,9 +5,15 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		
-		int zahl = 7;
+		int zahl;
 		
-		while(zahl>=1)
+		
+		for(int i = 5; i <=100;i++){
+		zahl=i;
+		System.out.print("Seed: "+i+" ");
+		
+		while(zahl>1){
+			 
 		
 		
 		if(zahl%2 !=0){
@@ -17,9 +23,10 @@ public class HelloWorld {
 		else{zahl = zahl/2;}
 		
 	System.out.print(zahl+", ");
+	//System.out.print(i + ",")
+	}
+	System.out.println("");
 	
 	}
-	
-	
-
 	}
+}
